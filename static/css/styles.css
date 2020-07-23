@@ -107,6 +107,7 @@ body{
   font-size: .8em;
   margin: 0;
   padding: 0;
+  text-align: left;
   line-height: 1.4;
 }
 .mobile-header .user h2 small{
@@ -191,6 +192,7 @@ body{
 }
 .mobile-messages .featured .featured-gred .time {
   font-size: 0.9em;
+  text-align: left;
 }
 .mobile-messages .featured .featured-gred .price {
   color: var(--white);
@@ -268,6 +270,9 @@ section article p {
   section article p {
     max-width: 440px;
     margin: 0;
+  }
+  section article h1 {
+    margin-top: 30px;
   }
 }
 /* 420 * 700 */
