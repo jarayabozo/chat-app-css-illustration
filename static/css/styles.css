@@ -76,13 +76,12 @@ body{
 .mobile {
   width: 247px;
   height: 504px;
-  box-shadow:inset 0px 0px 0px 10px var(--white);
+  box-shadow:inset 0px 0px 0px 10px var(--white),rgba(0,0,0,.2) 0 20px 40px;
   border-radius: 30px;
   background-color: var(--light-grayish-violet);
   margin: 64px auto;
   position: relative;
   padding-top: 10px;
-  box-shadow: rgba(0,0,0,.2) 0 20px 40px;
 }
 .mobile-header {
   width: 228px;
