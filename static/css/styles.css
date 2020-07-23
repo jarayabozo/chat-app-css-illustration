@@ -274,7 +274,7 @@ section article p {
   }
   .mobile{
     margin: 0 auto;
-    left: -45px;
+    left: -4px;
   }
   .wrapper {
     display: grid;
