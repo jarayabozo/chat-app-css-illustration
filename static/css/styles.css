@@ -35,7 +35,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: var(--light-grayish-violet);
+  background-color: var(--white);
   margin: 0;
 }
 .bg-gradient {
@@ -50,6 +50,20 @@ body{
   top: 0;
   z-index: -1;
   background: linear-gradient(184deg, var(--light-magenta) 0%, var(--light-violet) 80%);
+}
+/* rgb(249,244,249)	 */
+.bg-light {
+  border-bottom-left-radius: 0 0;
+	border-bottom-right-radius: 0 0;
+	border-top-right-radius: 65% 70%;
+	border-top-left-radius: 65% 70%;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  right: -165px;
+  bottom: 0;
+  z-index: -1;
+  background-color: hsl(300, 29%, 97%)
 }
 .wrapper {
   max-width: 1024px;
